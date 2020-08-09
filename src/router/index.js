@@ -41,9 +41,6 @@ const routes = [
     component: Solution
   },
 
-
-
-
   {
     path:'/about',
     name: 'About',

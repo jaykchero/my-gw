@@ -29,9 +29,7 @@
 </template>
 
 <script>
-  import sea1 from '../../assets/home/iphone.png'
-  import tb from '../../assets/home/notebook.png'
-
+ 
   //组件导入
   import myAdv from './componets/adv.vue'
   import swiperIndex from './componets/swiperIndex.vue'
@@ -54,7 +52,7 @@
           title1: '关注微信公众号小程序',
           info: '小程序，公众号无需安装卸载方便快捷，满足不同客户的不同需求。',
           title2: '优势特点',
-          img: sea1,
+          img: 'https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=ok9MQoy1v4TLjJhbOdfsz-rrBjE&data=Rz0-PQjYmqWQh9NaqM3Gc-msswSpkZzh5GiB2iRPBnG8vQYptoXqYO2HA7alBHuIE2gpTjlC6syuKrWo4NWRxuHBspYx_3-JWD6V1--1r9PY7Kp_ALFRW1SBBj1k3bSVmXWh5T8gRMrqX0hZ7mNmol1ls-ewFYvfmfY_3oT9oT3xDcgiC6x7mDvqCwd_IGw7qeXHVU-WEbKZsTmnrPWdlx9yZtcFD-RHVJFK9y9kphYOAt1qNEuHQG8Y1rp-TBCHa0DdCOdM40Ye4PO9Ssc5jSomRtORwLs-xnlEKpegob2OCIFYpg9rzkxIMlDxk2yCoWG7sfpCFw&ts=1597053344303&w=1080&h=1080&r=0&_cachekey=374991285ce5d2e76cc19957d773f753',
           list: ['1111', '22222', '33333', '4444444444', '55555555', '6666666666666']
 
         },
@@ -63,7 +61,7 @@
           title1: '关注微信公众号小程序',
           info: '小程序，公众号无需安装卸载方便快捷，满足不同客户的不同需求。',
           title2: '优势特点',
-          img: tb,
+          img: 'https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=hhkvKp1z55plOo8ycTnF0cEoZnU&data=Rz0-QcDdmp7TigDYeIQKrnFxrMCvNjm4_JRsYt9i3_Kn7lQptnD-JRVbeD1hDt8CXlYIL7dC6syuKrWoJCcjKrAWEhNF2xWGUTNY0QBRc1vY7AhrzPc8zc6gryP9vC3qT3-huzE6RMrPJnVZqgVGqQlIt-ewFfcXnPYEnYkuI-24wRW61rO_npxPUh-DzdTAhDxEThzEEbJspXxfcI4WUxXW7Jo7LoXJVJFK9y-EIg02eMm3u2Xz8m2FP4jNTBCHa0DdCOdM40Yevv2nSsf9f5jKFwQxRc8arHZNJ1qmTllSgIFb5aBrzkxIMlDxk2yCoWG7sfpCFw&ts=1597053490843&w=1080&h=1080&r=0&_cachekey=dae5a6728c1fc8962d6fd21e683810bb',
           list: ['1111', '22222', '33333', '4444444444', '55555555', '6666666666666']
 
         },

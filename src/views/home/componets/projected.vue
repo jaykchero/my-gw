@@ -7,40 +7,40 @@
 
    <div class="swiper-wrapper">
          <div class="swiper-slide ">
-           <img class="lii" src="../../../assets/bg/1.png" alt="">
+           <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img class="lii" src="../../../assets/bg/1.png" alt="">
+        <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-             <img  class="lii" src="../../../assets/bg/1.png" alt="" >
+              <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img class="lii" src="../../../assets/bg/1.png" alt="">
+            <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-             <img class="lii" src="../../../assets/bg/1.png" alt="">
+             <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img src="../../../assets/bg/1.png" alt="">
+            <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img src="../../../assets/bg/1.png" alt="">
+             <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-             <img src="../../../assets/bg/1.png" alt="">
+             <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img src="../../../assets/bg/1.png" alt="">
+            <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-             <img src="../../../assets/bg/1.png" alt="">
+              <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img src="../../../assets/bg/1.png" alt="">
+             <img class="lii" :src="img" alt="">
          </div>
          <div class="swiper-slide ">
-            <img src="../../../assets/bg/1.png" alt="">
+             <img class="lii" :src="img" alt="">
          </div>
        </div>
        <!-- Add Pagination -->
@@ -57,6 +57,7 @@ export default {
     data() {
       return {
       left:{},
+      img:'https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=FzC64-2KL2zB9cfp0gqflmprSmc&data=Rz0-ogiDyfssuGxPdVJSi_CJ6MPPeVD0Rdj2xwJs0MvwiyIptpmOGYnoXbPqXOsjDW_2Y6hC6syuKrWodOBEf7c3vNWyuhvzjG5SMaqpD9zY7Pf49Z4WGMUSG4JFv7cJCdqh1yISRMrNGldgiXt4olcE1uewFRTfwqVhYrtCtOBumTA7Lve8_tMmHqbPV3EdijN9GXmyEbKF1UDDw6uY2EfizckC0MnWVJFK9y9ZdqnQ1ow_GyGRe1CEjWjYTBCHa0DdCOdM40Ye0u6PSsetuP-fECWfgzh7ogOQelBG5KEuB4Fe4VZrzkxIMlDxk2yCoWG7sfpCFw&ts=1597053755702&w=1080&h=1080&r=0&_cachekey=1e9be162f21bd9a7d67a98240242a153'
       }
     },
 
