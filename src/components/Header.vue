@@ -24,7 +24,7 @@
         <a-menu-item-group >
            <a-menu-item key="setting:1">
             <span>
-              <a :href="'/about?maodian=about1'">公司介绍</a>
+              <a :href="'#/about?maodian=about1'">公司介绍</a>
              <!-- <a href="/about/#about1">公司简介</a> -->
             <!-- <router-link to="/about?maodian=about1">公司简介</router-link> --></span>
            </a-menu-item>
@@ -33,23 +33,23 @@
               >
               <!-- <a href="/about/#culture">普行文化</a> -->
               <!-- <router-link to="/about?maodian=culture">普行文化</router-link> -->
-               <a :href="'/about?maodian=culture'">普行文化</a>
+               <a :href="'#/about?maodian=culture'">普行文化</a>
               </span>
            </a-menu-item>
 
            <a-menu-item key="setting:3">
             <span>
-            <a :href="'/about?maodian=DevelopmentHistory'">发展历程</a>
+            <a :href="'#/about?maodian=DevelopmentHistory'">发展历程</a>
             <!-- <a href="/about/#DevelopmentHistory">普行文化</a> -->
            </span>
            </a-menu-item>
            <a-menu-item key="setting:4">
             <span
-              > <router-link to="/about">知识产权</router-link></span>
+              > <router-link to="#/about">知识产权</router-link></span>
            </a-menu-item>
            <a-menu-item key="setting:5">
             <span
-              > <router-link to="/about">项目经验</router-link></span>
+              > <router-link to="#/about">项目经验</router-link></span>
            </a-menu-item>
 
          </a-menu-item-group>
@@ -61,24 +61,24 @@
         <a-menu-item-group >
            <a-menu-item key="setting:1">
             <span>
-               <a :href="'/solution?maodian=PainsOfTrade'">行业痛点</a>
+               <a :href="'#/solution?maodian=PainsOfTrade'">行业痛点</a>
               </span>
            </a-menu-item>
            <a-menu-item key="setting:2">
             <span>
-             <a :href="'/solution?maodian=ProjectConstructionIdeas'">建设思考</a>
+             <a :href="'#/solution?maodian=ProjectConstructionIdeas'">建设思考</a>
            </span>
            </a-menu-item>
 
            <a-menu-item key="setting:3">
            <span>
-             <a :href="'/solution?maodian=Comparisonschemes'">方案对比</a>
+             <a :href="'#/solution?maodian=Comparisonschemes'">方案对比</a>
            </span>
            </a-menu-item>
 
            <a-menu-item key="setting:4">
            <span>
-             <a :href="'/solution?maodian=EquipmentDisplay'">设备展示</a>
+             <a :href="'#/solution?maodian=EquipmentDisplay'">设备展示</a>
            </span>
            </a-menu-item>
 
@@ -91,14 +91,14 @@
           > <router-link to="/puxingSmartParking">普行停车</router-link></span>
         <a-menu-item-group >
            <a-menu-item key="setting:1">
-             <a :href="'/puxingSmartParking?maodian=t1'">停车系统</a>
+             <a :href="'#/puxingSmartParking?maodian=t1'">停车系统</a>
            </a-menu-item>
            <a-menu-item key="setting:2">
-              <a :href="'/puxingSmartParking?maodian=t2'">经济效益</a>
+              <a :href="'#/puxingSmartParking?maodian=t2'">经济效益</a>
            </a-menu-item>
 
            <a-menu-item key="setting:3">
-             <a :href="'/puxingSmartParking?maodian=t3'">test</a>
+             <a :href="'#/puxingSmartParking?maodian=t3'">test</a>
            </a-menu-item>
            <a-menu-item key="setting:4">
              <a href="http://www.ptyibo.com/#/login" target="_blank">员工登录</a>
@@ -232,7 +232,7 @@
 
 <style>
 
-  
+
 
   .ant-menu-item a:hover{
     color: #0080FF !important;
