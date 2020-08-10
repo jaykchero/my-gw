@@ -1,15 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
-import Home from '../views/home/home.vue'
-
-import About from '../views/about/about.vue'
-import Solution from '../views/solution/solution.vue'
-import PuxingSmartParking from '../views/PuxingSmartParking/PuxingSmartParking.vue'
-
-
-
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -21,31 +11,32 @@ const routes = [
 
   },
 
+
   {
     path:'/puxingSmartParking',
     name:"PuxingSmartParking",
-    component:PuxingSmartParking
+    component: () => import( '../views/PuxingSmartParking/PuxingSmartParking.vue')
+
   },
 
 
   {
     path: '/home',
     name: 'Home',
-    component: Home
+    component: () => import( '../views/home/home.vue')
   },
 
 
   {
     path:'/solution',
     name:'Solution',
-    component: Solution
+     component: () => import( '../views/solution/solution.vue')
   },
 
   {
     path:'/about',
     name: 'About',
-    component: About,
-
+     component: () => import( '../views/about/about.vue')
   },
 
 

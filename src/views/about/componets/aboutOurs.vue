@@ -45,7 +45,7 @@
 <script>
     import advAboutOurs from './advAboutOurs.vue'
 
-     import {TweenMax, Power2, TimelineLite,TweenLite} from "gsap";
+    // import {TweenMax, Power2, TimelineLite,TweenLite} from "gsap";
 
     export default {
   components:{

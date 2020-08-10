@@ -106,9 +106,6 @@
 
 <style scoped="scoped">
 
-/* .clearfix:before, .clearfix:after {content: "";display: block;}
-.clearfix:after{clear:both;overflow: hidden;}
-.clearfix {*zoom: 1 ;}*/
 
     .lii{
         transition: all .5s ease;
