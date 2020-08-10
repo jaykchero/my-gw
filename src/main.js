@@ -6,9 +6,13 @@ import './assets/css/reset.css'
 import '@/assets/css/animate.min.css'
 Vue.config.productionTip = false
 import {goAnchor,GetQueryString} from './assets/js/common.js';
-import Antd from 'ant-design-vue'
+//import Antd from 'ant-design-vue'
+import { Menu,Table } from 'ant-design-vue';
+Vue.use(Menu);
+Vue.use(Table);
+
 import 'ant-design-vue/dist/antd.css'
-Vue.use(Antd)
+
 import 'swiper/css/swiper.css'
 
 new Vue({
