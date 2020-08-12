@@ -100,22 +100,22 @@
 
     .slide-one {
       height: 600px !important;
-      background: url(../../../assets/bg/bj1.png) no-repeat center;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj1.png) no-repeat center;
       background-size: cover;
     }
     .slide-two {
       height: 600px !important;
-      background: url(../../../assets/bg/bj2.png) no-repeat center;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj2.png) no-repeat center;
       background-size: cover;
     }
     .slide-three {
       height: 600px !important;
-      background: url(../../../assets/bg/bj3.png) no-repeat center;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj3.png) no-repeat center;
       background-size: cover;
     }
     .slide-four {
       height: 600px !important;
-      background: url(../../../assets/bg/bj4.png) no-repeat center;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj4.png) no-repeat center;
       background-size: cover;
     }
 

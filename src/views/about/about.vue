@@ -3,7 +3,7 @@
   <div class="about-all">
 
       <div class="h-b">
-          <img src="../../assets/bg/h-b1.jpg" alt="">
+          <img src="http://qexz4xnye.hn-bkt.clouddn.com/h-b1.jpg" alt="">
       </div>
 
       <div id="about1" class="about" >

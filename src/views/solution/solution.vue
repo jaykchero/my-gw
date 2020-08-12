@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="h-b">
-      <img src="../../assets/bg/h-b1.jpg" alt="">
+      <img src="http://qexz4xnye.hn-bkt.clouddn.com/h-b2.jpg" alt="">
   </div>
 
   <div class="solution2"  id="PainsOfTrade">

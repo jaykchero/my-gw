@@ -11,12 +11,12 @@
          <div class="swiper-container">
            <div class="swiper-wrapper">
              <div class="swiper-slide init ">
-               <img class="img" src="../../../assets/solution/test.png" alt="">
+               <img class="img" src="http://qexz4xnye.hn-bkt.clouddn.com/test.png" alt="">
                <p class="desc init ">车位已满</p>
              </div>
-             <div class="swiper-slide"><img class="img" src="../../../assets/solution/test02.png" alt=""> <p class="desc init">人工收费频繁</p></div>
-             <div class="swiper-slide"><img class="img" src="../../../assets/solution/test03.png" alt=""><p class="desc init">车辆乱停</p></div>
-             <div class="swiper-slide"><img class="img" src="../../../assets/solution/test04.png" alt=""><p class="desc init">电动车占用车位</p></div>
+             <div class="swiper-slide"><img class="img" src="http://qexz4xnye.hn-bkt.clouddn.com/test02.png" alt=""> <p class="desc init">人工收费频繁</p></div>
+             <div class="swiper-slide"><img class="img" src="http://qexz4xnye.hn-bkt.clouddn.com/test03.png" alt=""><p class="desc init">车辆乱停</p></div>
+             <div class="swiper-slide"><img class="img" src="http://qexz4xnye.hn-bkt.clouddn.com/test04.png" alt=""><p class="desc init">电动车占用车位</p></div>
            </div>
          <!-- <div class="swiper-pagination"></div> -->
          </div>
