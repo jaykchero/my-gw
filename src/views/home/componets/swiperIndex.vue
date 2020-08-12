@@ -29,8 +29,7 @@
 <script>
   import Swiper from "swiper"
 
-  //图片资源导入
-  import i1 from '../../../assets/bg/bj1.png'
+  
 
   export default {
 
