@@ -1,13 +1,18 @@
 <template>
 
   <div class="about-all">
+
+      <div class="h-b">
+          <img src="../../assets/bg/h-b1.jpg" alt="">
+      </div>
+
       <div id="about1" class="about" >
          <about1></about1>
       </div>
       <div id="culture" class="about" style="padding-top: 100px; margin-bottom: 55px;">
          <culture></culture>
       </div>
-      <div id="DevelopmentHistory" class="about2" style="padding-top: 60px">
+      <div id="DevelopmentHistory" class="about2" style="padding-top: 60px;">
         <DevelopmentHistory></DevelopmentHistory>
       </div>
       <div class="about1">
@@ -63,12 +68,27 @@
 
 </script>
 <style scoped="scoped">
+  .h-b img {
+    width: 1519px;
+     height: 388px;
+  }
+  .h-b{
+    margin-bottom: -50px;
+    width: 100%;
+    height: 388px;
+    overflow: hidden;
+  }
+
   .about-all{
     position: relative;
+    text-align: center;
   }
-  .about{
+  .about {
+
+    margin: 0 auto;
+    width: 1200px;
     height: 655px;
     overflow: hidden;
   }
-  
+
 </style>

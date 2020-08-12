@@ -1,11 +1,31 @@
 <template>
 <div>
-  <PainsOfTrade  id="PainsOfTrade" class="solution"></PainsOfTrade>
+  <div class="h-b">
+      <img src="../../assets/bg/h-b1.jpg" alt="">
+  </div>
+
+  <div class="solution2"  id="PainsOfTrade">
+     <PainsOfTrade  ></PainsOfTrade>
+  </div>
+
+  <div class="solution">
+    <ProjectConstructionIdeas id="ProjectConstructionIdeas"  style="padding-top: 50px;"></ProjectConstructionIdeas>
+  </div>
   <!-- <router-view></router-view> -->
-  <ProjectConstructionIdeas id="ProjectConstructionIdeas" class="solution" style="padding-top: 50px;"></ProjectConstructionIdeas>
-  <Comparisonschemes  id="Comparisonschemes" class="solution" style="padding-top: 100px;"></Comparisonschemes>
-  <EquipmentDisplay  id="EquipmentDisplay" class="solution" style="padding-top: 100px;"></EquipmentDisplay>
-  <EquipmentDisplay2  id="EquipmentDisplay2" class="solution"></EquipmentDisplay2>
+  <div class="solution">
+    <Comparisonschemes  id="Comparisonschemes"  style="padding-top: 100px;"></Comparisonschemes>
+  </div>
+
+  <div class="solution">
+     <EquipmentDisplay  id="EquipmentDisplay"  style="padding-top: 100px;"></EquipmentDisplay>
+  </div>
+
+  <div class="solution">
+    <EquipmentDisplay2  id="EquipmentDisplay2" ></EquipmentDisplay2>
+  </div>
+
+
+
   <Bottom></Bottom>
 </div>
 </template>
@@ -58,7 +78,27 @@
 
 <style scoped="scoped">
   .solution{
+    padding-bottom: 65px;
     height: 655px;
     overflow: hidden;
   }
+
+    .solution2{
+      padding-top: 50px;
+      margin-top: 100px;
+      height: 655px;
+      overflow: hidden;
+    }
+
+  .h-b img {
+    width: 1519px;
+     height: 388px;
+  }
+  .h-b{
+    margin-bottom: 70px;
+    width: 100%;
+    height: 388px;
+    overflow: hidden;
+  }
+
 </style>

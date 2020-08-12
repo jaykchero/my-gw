@@ -6,8 +6,9 @@
     </div> -->
 
     <Header class="header"></header>
+    <div class="lines"></div>
     <backtop></backtop>
-    
+
    <!-- <transition enter-active-class="animated fadeInUp"> -->
        <transition >
       <router-view/>
@@ -61,7 +62,16 @@
 
 
 <style lang="less">
-
+  .header{
+   // background-color: #eee;
+    height: 65px;
+   // margin-bottom: 5px;
+  }
+  .lines{
+    height: 1.5px;
+    width: 100%;
+    background-color: #477e9a;
+  }
 
 
 #app {

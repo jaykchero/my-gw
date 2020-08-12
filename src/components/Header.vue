@@ -232,7 +232,9 @@
 
 <style>
 
+/* .router-link-exact-active {
 
+} */
 
   .ant-menu-item a:hover{
     color: #0080FF !important;
@@ -272,6 +274,7 @@
   align-items: center;
   justify-content: space-between;
   height: 5rem;
+
   }
 
   .h-logo{
@@ -299,9 +302,9 @@
 
 
  .submenu-title-wrapper .active{
-   font-size: 15px;
-
-  border-bottom: 1.5px solid #1073d8;
+  font-size: 20px;
+  color: #477e9a!important;
+ /* border-bottom: 0.5px solid #477e9a; */
   display: block;
   line-height: 46px;
    width: 80px !important;

@@ -5,6 +5,7 @@
       <div class="header-left ">
        <h2 class="h2 tl1">常见路侧停车方案对比</h2>
        <h3 class="lh3  tl1">Comparison of parking schemes</h3>
+       <div class="liness tl1"></div>
       </div>
     </div>
     <div class="context">
@@ -191,6 +192,16 @@ export default {
 </script>
 <style>
 
+  .liness{
+
+      top: 10px;
+      position: relative;
+     
+      width: 120px;
+      height: 0.5px;
+      background-color:#2e2e2e;
+    }
+
   .ant-table-thead > tr > th {
         text-align: center !important;
         color: #F79646 !important;
@@ -220,7 +231,7 @@ td.column-money {
 
 
    .header{
-     padding-bottom: 50px;
+     padding-bottom: 150px;
    }
 
   .all{
@@ -234,11 +245,13 @@ td.column-money {
     font-weight: bolder;
    }
    .lh3{
+     margin-top: 20px;
+        z-index: 999;
          color: #555;
          text-align: left;
-         font-size: 30px;
+         font-size: 25px;
          line-height: 36px;
-         margin-bottom: -30px;
+          top: -10px;
          font-family: "itcavantgardepro-bk";
          position: relative;
    }

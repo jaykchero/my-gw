@@ -3,7 +3,7 @@
   <h2 class="h2 tl1">发展历程</h2>
   <h3 class="lh3 tl1">development history</h3>
    <div class="ui-timeLine">
-   	<a v-for="item in items" class="item">
+   	<a v-for="(item,index) in items" :key="index"  class="item">
    		<div class="line"></div>
    		<div class="dot"></div>
    		<div class="box">
