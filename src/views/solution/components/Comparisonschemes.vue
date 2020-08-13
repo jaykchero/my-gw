@@ -235,6 +235,8 @@ td.column-money {
    }
 
   .all{
+    padding-left: 50px;
+    padding-right: 50px;
     width: 1200px;
     margin: 0 auto;
   }

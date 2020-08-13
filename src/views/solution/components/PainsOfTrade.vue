@@ -30,7 +30,7 @@
     mounted() {
      var swiper = new Swiper('.swiper-container', {
           slidesPerView: 3,
-          spaceBetween: -100,
+          spaceBetween: 100,
           centeredSlides: true,
           autoplay:true,
           loop: true,
@@ -55,10 +55,10 @@
 </script>
 
 <style scoped="scoped">
-
-/*  .all{
-    margin-top: 200px;
-  } */
+    .potheader{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
 
     .desc{
     display: inline-block;
@@ -70,7 +70,7 @@
     }
 
   .h2{
-    padding-left: 150px;
+
     text-align: left;
     color: #477e9a;
     font-size: 30px;
@@ -78,7 +78,7 @@
    }
    .pp{
     position: absolute;
-    left: 150px;
+    left: 210px;
     color: #555;
     text-align: left;
     font-size: 30px;
@@ -118,8 +118,8 @@
       /* border:2px solid #F79646; */
     }
     img{
-      width: 600px;
-      height: 400px;
+      width: 550px;
+      height: 350px;
     }
 
     .swiper-container {

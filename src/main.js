@@ -7,9 +7,15 @@ import '@/assets/css/animate.min.css'
 Vue.config.productionTip = false
 import {goAnchor,GetQueryString} from './assets/js/common.js';
 //import Antd from 'ant-design-vue'
-import { Menu,Table } from 'ant-design-vue';
+import { Menu,Table,Divider,Icon } from 'ant-design-vue';
 Vue.use(Menu);
 Vue.use(Table);
+Vue.use(Divider);
+Vue.use(Icon);
+
+
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+Vue.use(VueAwesomeSwiper);
 
 import 'ant-design-vue/dist/antd.css'
 import 'swiper/css/swiper.css'

@@ -187,6 +187,8 @@ body{
 }
 
 .fzlc-all{
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 20px;
   width: 1200px;
   margin: 0 auto;

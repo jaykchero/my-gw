@@ -106,6 +106,10 @@
 
 <style scoped="scoped">
 
+    .clearfix{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
     .lii{
         transition: all .5s ease;

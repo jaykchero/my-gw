@@ -85,6 +85,8 @@
   }
 
   .bottom-all{
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
     width: 100%;
     height: 350px;

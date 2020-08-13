@@ -111,6 +111,13 @@
 
 <style>
 
+  .adv{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+
     .liness{
           content: "";
           display: block;

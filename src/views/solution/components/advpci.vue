@@ -1,7 +1,7 @@
 <template>
 <div class="a-all">
-<div class="pci-container">
-  <div >
+
+ 
 
   <div class="adv" :class="{toleft:isToLeft}">
     <div class="left2 " >
@@ -29,8 +29,8 @@
     </div>
 
   </div>
-  </div>
-    </div>
+  
+   
     </div>
 </template>
 
@@ -106,7 +106,7 @@
            // 判断元素距离窗口的位置
               isElemVisible (el) {
                 var rect = el.getBoundingClientRect()
-                var elemTop = rect.top // 200 = buffer
+                var elemTop = rect.top+100 // 200 = buffer
                 var elemBottom = rect.bottom
                 return elemTop < window.innerHeight && elemBottom >= 0
               }
@@ -118,6 +118,8 @@
 <style>
 
     .a-all{
+      padding-left: 50px;
+      padding-right: 50px;
       height: 655;
       width: 1200px;
       margin: 0 auto;

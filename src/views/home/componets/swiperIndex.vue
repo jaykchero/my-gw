@@ -3,16 +3,24 @@
     <div class="swiper-container banner-swiper">
       <div class="swiper-wrapper">
          <div class="swiper-slide slide-one">
-            <h2>111111111111</h2>
+           <div class="page">
+              <h3>普行智能停车</h3>
+            </div>
            </div>
         <div class="swiper-slide slide-two">
-            <h2>22222222222222</h2>
+          <div class="page">
+             <h3>普行智能停车</h3>
+           </div>
         </div>
         <div class="swiper-slide slide-three">
-            <h2>33333333333</h2>
+            <div class="page">
+               <h3>普行智能停车</h3>
+             </div>
         </div>
         <div class="swiper-slide slide-four">
-            <h2>444444444444444</h2>
+           <div class="page">
+              <h3>普行智能停车</h3>
+            </div>
 
         </div>
 
@@ -29,7 +37,7 @@
 <script>
   import Swiper from "swiper"
 
-  
+
 
   export default {
 
@@ -60,18 +68,9 @@
       			loadPrevNextAmount: 3,
       		  },
       		  centeredSlides: true,
-      		  spaceBetween : 30,
-      		  slidesOffsetBefore: 40,
       		  loop: true,
       		  slidesPerView : 'auto',
-      		  on: {
-      			slideChangeTransitionEnd: function(){
-      			  this.slides.transition(this.params.autoplay.delay+this.params.speed).transform('translate3d(-60px, 0, 0)');
-      			},
-      			slideChangeTransitionStart: function(){
-      			  this.slides.transition(this.params.speed).transform('translate3d(0, 0, 0)');
-      			},
-      		  },
+
       		  pagination: {
       		  			el: '.swiper-pagination',
       		  			clickable :true,
@@ -97,31 +96,44 @@
 @import url('../../../assets/css/swiper.min.css');
 
 
+
+    h3{
+      margin-top: 60px;
+      font-size: 40px;
+      font-weight: 400;
+      color: #fff;
+    }
+    .swiper-pagination{
+
+        position: absolute;
+        top: 620px;
+        z-index: 999;
+    }
+
     .slide-one {
-      height: 600px !important;
-      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj1.png) no-repeat center;
+      height: 700px !important;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/home_top.jpg) no-repeat center;
       background-size: cover;
     }
     .slide-two {
-      height: 600px !important;
-      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj2.png) no-repeat center;
+       height: 700px !important;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/home_do.jpg) no-repeat center;
       background-size: cover;
     }
     .slide-three {
-      height: 600px !important;
-      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj3.png) no-repeat center;
+       height: 700px !important;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/home_top.jpg) no-repeat center;
       background-size: cover;
     }
     .slide-four {
-      height: 600px !important;
-      background: url(http://qexz4xnye.hn-bkt.clouddn.com/bj4.png) no-repeat center;
+      height: 700px !important;
+      background: url(http://qexz4xnye.hn-bkt.clouddn.com/home_do.jpg) no-repeat center;
       background-size: cover;
     }
 
 
     img{
-
-      height: 600px !important;
+      height: 700px !important;
     }
 
 body {
@@ -139,7 +151,7 @@ body {
 	.swiper-wrapper{
 	}
     .swiper-slide {
-	    width:978px;
+	    width:100%;
 		transition-timing-function:linear;
     }
 	@media only screen and (max-width:1200px){
@@ -224,18 +236,5 @@ body {
 	.swiper-pagination-bullet:last-child.swiper-pagination-bullet-active i{
 		animation:last 6s;
 		}
-	@keyframes first{
-	  0% {transform:scaleX(0.5);left:0px;}/*091*/
-	  100% {transform:scaleX(1);left:2px;} /*0915*/
-	}
-	@keyframes last{
-	  0% {transform:scaleX(0.7);left:-10px;}/*1090*/
-	  20% {transform:scaleX(0.3);left:2px;} /*090*/
-	  100% {transform:scaleX(0.3);left:0px;} /*090*/
-	}
-	@keyframes middle{
-	  0% {transform:scaleX(0.7);left:-10px;}/*1091*/
-	  20% {transform:scaleX(0.45);left:2px;}/*092*/
-	  100% {transform:scaleX(1);left:2px;} /*0913*/
-	}
+
 </style>
